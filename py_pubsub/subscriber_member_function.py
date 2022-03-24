@@ -80,7 +80,7 @@ class MinimalSubscriber(Node):
             delta_x = bari_x -x_centre
             delta_y = bari_y 
 
-            self.lin_vel = delta_x *0.5
+            self.lin_vel = delta_x *1
             self.rot_vel = delta_y *0.5
 
             msg_twist.linear.x = self.lin_vel 
